@@ -13,6 +13,12 @@ var ground;
 var rope
 var fruit;
 var fruit_con;
+var bg_img, food, rabbit;
+function preload(){
+  bg_img = loadImage("background.png");
+  food = loadImage("melon.png");
+  rabbit = loadImage("eat_0.png");
+}
 function setup(){
   createCanvas(500,700);
   engine = Engine.create();
